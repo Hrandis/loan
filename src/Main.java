@@ -4,7 +4,7 @@
 // Было принято решение округлять по правилам до целого.
 
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         CreditPaymentService service = new CreditPaymentService();
 
         double monthlyPaymentOneYear = service.calculate(1_000_000, 1, 9.99);
